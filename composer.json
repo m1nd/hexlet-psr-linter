@@ -1,0 +1,22 @@
+{
+  "name": "m1nd/hexlet-psr-linter",
+  "bin": ["bin/hexlet-psr-linter"],
+  "type": "library",
+  "authors": [
+    {
+      "name": "Valeev Nazar",
+      "email": "m1nd@mail.ru"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HexletPsrLinter\\": "src/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "*",
+    "codeclimate/php-test-reporter": "dev-master"
+  }
+}
