@@ -1,6 +1,6 @@
 {
   "name": "m1nd/hexlet-psr-linter",
-  "bin": ["bin/hexlet-psr-linter"],
+  "bin": ["bin/psrlint"],
   "type": "library",
   "authors": [
     {
