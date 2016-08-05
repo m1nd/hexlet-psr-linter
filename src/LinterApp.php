@@ -12,5 +12,4 @@ class LinterApp
     {
         $this->cli = new CLImate();
     }
-
 }
